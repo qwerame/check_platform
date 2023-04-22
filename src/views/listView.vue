@@ -183,6 +183,7 @@ export default {
           return value.time <= newTime_end
         })
       }
+      this.current_page = 1
       console.log(newTime_start + ' ' + newTime_end);
       if(newTime_start > newTime_end) console.log("戳啦~~~")
 
